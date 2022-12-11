@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+    login CSS
+*/
+
+
+.login-main-section{
+    margin-top: calc( 10% - 10px );
+    display: flex;
+    justify-content: space-around;
+}
+
+
+figure > .img-main-log {
+    max-width:  75%;
+}
+
+
+.figure-main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.card {
+    width: 90%;
+    border-radius: 1.35rem;
+    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+    display: flex;
+    justify-content: space-around;
+    max-width: 1050px;
+    height: 500px;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+input, button{
+    width: 100%;
+}
+
+.main-form {
+    width: 60%;
+}
+
+.tittle-text-login{
+    text-align: center;
+    color: #001672;
+    font-weight: 650;
+    font-size: 2.6rem;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.tittle-text-login, label {
+
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+input  {
+    margin-top: 20px;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    padding:  0.4rem;
+    color: #6e707e;
+    border: 1px solid #d1d3e2;
+}
+
+
+button{
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+    background-color: rgb(0, 162, 215);
+    border: 1px solid;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+label{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.container-password, .container-curp{
+    width: 100%;
+}
+
+.container-password{
+    margin-top: 25px;
+}
+
+@media (max-width: 930px) {
+    .section-container-logo{
+        display: none;
+    }
+
+    .card {
+        height: 100vh;
+    }
+
+}
